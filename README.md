@@ -1,22 +1,52 @@
-# leetcode-perfect-square
-Solution to LeetCode problem: Valid Perfect Square
-# Valid Perfect Square – LeetCode Solution
+# LeetCode Solutions – Palindrome Linked List & Valid Perfect Square
 
-## Problem
-Given a positive integer `num`, return true if `num` is a perfect square or false otherwise. Do not use any built-in function like `sqrt`.
+## 📹 Video Explanation
+Watch my detailed walkthrough of both problems here:  
+🎥 [Video Link](https://your-video-link-here)
 
-## Approach
-Used **Binary Search** to find an integer `i` such that `i * i == num`.
+---
 
-Time Complexity: `O(log n)`  
-Space Complexity: `O(1)`
+## 🧪 Problem 1: Palindrome Linked List
 
-## Solution
-See [validPerfectSquare.cpp](validPerfectSquare.cpp)
+### 🧠 Description
+Given the head of a singly linked list, return `true` if the list is a palindrome, and `false` otherwise.
 
-## Video Explanation
-[Insert your video link here – YouTube or Google Drive]
+### 🚀 Approach
+- Use two pointers (slow/fast) to find the middle.
+- Reverse the second half of the list.
+- Compare both halves.
+- Time: `O(n)`, Space: `O(1)`
 
-## Sample Input
-- Input: 16 → Output: true
-- Input: 14 → Output: false
+### 📄 Code
+See: [`palindromeLinkedList.cpp`](palindromeLinkedList.cpp)
+
+---
+
+## 🧪 Problem 2: Valid Perfect Square
+
+### 🧠 Description
+Given a positive integer `num`, return `true` if it's a perfect square without using any built-in function like `sqrt`.
+
+### 🚀 Approach
+- Use Binary Search from 2 to `num / 2`.
+- Check if `mid * mid == num`
+- Time: `O(log n)`, Space: `O(1)`
+
+### 📄 Code
+See: [`validPerfectSquare.cpp`](validPerfectSquare.cpp)
+
+---
+
+## 📌 What I Practiced
+- Binary Search
+- Linked List operations (reverse, compare)
+- Clean C++ coding
+- Problem explanation
+- GitHub project organization
+- Communication skills via video
+
+---
+
+## 🔗 Connect with Me
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/shreya-mishra-b06515283/) or check more on my [GitHub](https://github.com/ShreyaMishra0607/)
+
