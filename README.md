@@ -2,7 +2,7 @@
 
 ## 📹 Video Explanation
 Watch my detailed walkthrough of both problems here:  
-🎥 [Video Link](https://www.kapwing.com/w/uRLQKYaI4A)
+🎥 [Video Link](https://youtu.be/8KYu3fBJqsk)
 
 ---
 
